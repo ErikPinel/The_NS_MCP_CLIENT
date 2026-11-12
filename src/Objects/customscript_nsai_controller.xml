@@ -1,0 +1,16 @@
+<suitelet scriptid="customscript_nsai_controller">
+    <name>NetSuite AI Chat Controller</name>
+    <description>Internal read-only OpenAI agent with in-process SuiteScript tools.</description>
+    <isinactive>F</isinactive>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/NSAI/controller.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_nsai_controller">
+            <isdeployed>T</isdeployed>
+            <isonline>F</isonline>
+            <loglevel>AUDIT</loglevel>
+            <status>TESTING</status>
+            <title>NetSuite AI Chat</title>
+        </scriptdeployment>
+    </scriptdeployments>
+</suitelet>

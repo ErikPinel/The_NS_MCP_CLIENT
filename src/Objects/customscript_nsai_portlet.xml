@@ -1,0 +1,16 @@
+<portlet scriptid="customscript_nsai_portlet">
+    <name>NetSuite AI Chat Portlet</name>
+    <description>Dashboard chat interface for the native read-only agent.</description>
+    <isinactive>F</isinactive>
+    <notifyowner>T</notifyowner>
+    <portlettype>HTML</portlettype>
+    <scriptfile>[/SuiteScripts/NSAI/portlet.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_nsai_portlet">
+            <isdeployed>T</isdeployed>
+            <loglevel>AUDIT</loglevel>
+            <status>TESTING</status>
+            <title>NetSuite AI Chat</title>
+        </scriptdeployment>
+    </scriptdeployments>
+</portlet>

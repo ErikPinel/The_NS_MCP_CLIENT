@@ -1,0 +1,9 @@
+{
+  "name": "netsuite-native-ai-chat",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "validate": "suitecloud project:validate",
+    "validate:server": "suitecloud project:validate --server"
+  }
+}
